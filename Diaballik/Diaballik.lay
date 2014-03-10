@@ -1,0 +1,24 @@
+LAYOUT(DiaballikLayout, 492, 344)
+	ITEM(GameBoardLay, gameboardlay, LeftPosZ(8, 352).BottomPosZ(8, 328))
+	ITEM(Button, endMoveButton, SetLabel(t_("End Move")).Tip(t_("CPU makes best move for You")).RightPosZ(4, 124).TopPosZ(48, 20))
+	ITEM(Button, playerChange, SetLabel(t_("Change player")).Tip(t_("CPU makes best move for You")).RightPosZ(4, 124).TopPosZ(48, 20))
+	ITEM(Button, undoButton, SetLabel(t_("Undo")).Tip(t_("CPU makes best move for You")).RightPosZ(4, 124).TopPosZ(72, 20))
+	ITEM(Button, hintButton, SetLabel(t_("Hint")).Tip(t_("CPU makes best move for You")).RightPosZ(4, 124).TopPosZ(96, 20))
+	ITEM(Button, playItButton, SetLabel(t_("Exit editor")).Tip(t_("CPU makes best move for You")).RightPosZ(4, 124).TopPosZ(72, 20))
+	ITEM(Label, Throws, SetLabel(t_("Throws:")).LeftPosZ(424, 40).TopPosZ(24, 15))
+	ITEM(Label, moves, SetLabel(t_("Moves:")).LeftPosZ(364, 36).TopPosZ(24, 15))
+	ITEM(Label, playerHave, SetLabel(t_("Player have:")).SetFont(StdFont().Bold()).LeftPosZ(364, 104).TopPosZ(8, 15))
+	ITEM(RichTextCtrl, gamehistory, Background(White).HMargins(5).VMargins(5).SetFrame(InsetFrame()).LeftPosZ(376, 100).TopPosZ(128, 208))
+	ITEM(EditInt, throwsInt, SetEditable(false).LeftPosZ(464, 24).TopPosZ(24, 15))
+	ITEM(EditInt, movesInt, SetEditable(false).LeftPosZ(400, 24).TopPosZ(24, 15))
+END_LAYOUT
+
+LAYOUT(SelectPlayerLayout, 180, 160)
+	ITEM(Switch, p2switch, SetLabel(t_("Human\nCPU")).HSizePosZ(68, 20).TopPosZ(86, 16))
+	ITEM(Switch, p1switch, SetLabel(t_("Human\nCPU")).HSizePosZ(68, 20).TopPosZ(53, 16))
+	ITEM(Label, dv___2, SetLabel(t_("Red")).SetFont(StdFontZ(14)).SetInk(LtRed).LeftPosZ(12, 36).TopPosZ(81, 27))
+	ITEM(Label, dv___3, SetLabel(t_("Blue")).SetFont(StdFontZ(14)).SetInk(Color(28, 42, 200)).LeftPosZ(12, 36).TopPosZ(48, 27))
+	ITEM(Label, dv___4, SetLabel(t_("Choose Player")).SetFont(StdFontZ(18)).LeftPosZ(20, 140).TopPosZ(8, 27))
+	ITEM(Button, ok, SetLabel(t_("ok")).LeftPosZ(50, 80).VSizePosZ(120, 13))
+END_LAYOUT
+

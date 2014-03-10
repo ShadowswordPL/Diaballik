@@ -1,0 +1,25 @@
+uses
+	CtrlLib,
+	Painter;
+
+file
+	LangConsts.h,
+	ColorConsts.h,
+	GameBoardField.cpp,
+	GameBoardLay.cpp,
+	NumberConsts.h,
+	TypesEnumsStructs.h,
+	Pawn.iml,
+	MainGame.cpp,
+	SelectPlayerLay.cpp,
+	GameHistory.cpp,
+	Move.cpp,
+	player.cpp,
+	AIPlayer.cpp,
+	Diaballik.h,
+	main.cpp,
+	Diaballik.lay;
+
+mainconfig
+	"" = "GUI MT SSE2";
+

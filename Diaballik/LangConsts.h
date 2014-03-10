@@ -1,0 +1,42 @@
+#ifndef _Diaballik_LangConsts_h_
+#define _Diaballik_LangConsts_h_
+
+	//All texts used in program
+
+	#define L_UNSAVED "Current game state is unsaved, are You sure to erase game state?"
+	#define L_DELETEMOVE "If you make move are next moves will be erased, are You sure?"
+	#define L_MENU_NEWGAME "New game"
+	#define L_MENU_SAVEGAME "Save game"
+	#define L_MENU_LOADGAME "Load game"
+	#define L_MENU_EXIT "Exit"
+	#define L_MENU_FILE "File"
+	#define L_MENU_EDITOR "Editor"
+	#define L_MENU_RULES "Game Rules"
+	#define RULESURL "http://en.wikipedia.org/wiki/Diaballik#Rules"
+	#define SELECTPLAYER "Choose player"
+	#define GAMENAME "Pingiunballik"
+	#define QTFNEWGAME "<New Game>"
+	#define QTFENDMOVE "<End Move>"
+	#define QTFEDITOR "<Edited state>"
+	#define PAWN "Pawn"
+	#define BALL "Ball"
+	#define WON "won this game!"
+	#define DRAW "It's a draw!"
+	#define BLUE "Blue"
+	#define RED "Red"
+	#define OPENEDITOR "Are you sure to open gamestate editor?"
+	#define STARTTOSAVE "You have to play any game to save it!"
+	#define STARTTOEDIT "You cannnot edit gamestate until you start playing!"
+	#define NOTCURRENTMAX "You have to switch to the last move to open editor"
+	#define CANNOTINEDIT "Exit gamestate editor to do it!"
+	#define CANNOTAI "Wait until computer ends inventing the move"
+	#define FSTYPENAME "Diaballik Save (*.dsav)"
+	#define FSTYPEEXT "*.dsav"
+	#define FILECANNOTOPEN "Cannot open this file!"
+	#define DMGFILE "File is unsupported or damaged!"
+	#define HINTEND "You should end your move"
+	#define HINTBALL "You should throw ball from "
+	#define HINTPAWN "You should move pawn from "
+	#define TO " to "
+
+#endif
